@@ -42,7 +42,7 @@ class Main
 
 			return response()->json([
 				'status' => 'error',
-				'errorDescription' => $e->getMessage()
+				'message' => $e->getMessage()
 			], $e->getCode());
 			
 		}

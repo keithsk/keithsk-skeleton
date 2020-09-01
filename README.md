@@ -17,9 +17,10 @@ PHP >= 7.2.5
 ## Installing
 
 * Run **composer create-project keithsk/skeleton:dev-master myapp**
-* Create a new database with collation "utf8mb4_unicode_ci" in mysql
-* Edit config for app and database
-* Run **php -S localhost:8000 -t**
+* Create a new database with collation "utf8mb4_unicode_ci" in mysql (Optional)
+* Edit config database (Optional)
+* Edit config app (Optional)
+* Run **php -S localhost:8000**
 * Browse http://localhost:8000
 
 

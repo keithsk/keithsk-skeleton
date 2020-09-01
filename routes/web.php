@@ -48,5 +48,5 @@ $route->get('', function($request) {
 // Return error as method and uri not found
 response()->json([
     'status' => 'error',
-    'errorDescription' => 'Page not found',
+    'message' => 'Page not found',
 ], 404);
