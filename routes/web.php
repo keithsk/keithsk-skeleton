@@ -26,7 +26,7 @@ if(get_config('app.debug') === true) {
  * ##### API Routes
  * ###########################################
  */
-use Websoft\Route;
+use Keithsk\Route;
 
 // Http Controllers
 use App\Http\Main;

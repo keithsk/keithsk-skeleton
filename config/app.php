@@ -5,7 +5,7 @@ return [
     /**
      * Application Name
      */
-    'name' => 'Websoft API',
+    'name' => 'New API',
 
 
     /**

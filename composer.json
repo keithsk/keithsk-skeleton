@@ -1,17 +1,17 @@
 {
-    "name": "keithchiah/skeleton",
+    "name": "keithsk/skeleton",
     "description": "The PHP Framework (Skeleton)",
     "type": "project",
-    "license": "gpl-3.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Keith Chiah",
-            "email": "keithchiah@websoft.com.sg"
+            "email": "skchiah@gmail.com"
         }
     ],
     "require": {
         "php": "^7.2.5",
-        "websoft/framework": "^1.0"
+        "keithsk/framework": "^1.0"
     },
     "autoload": {
         "psr-4": {

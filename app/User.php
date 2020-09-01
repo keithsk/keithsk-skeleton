@@ -4,7 +4,7 @@ namespace App;
 
 use Exception;
 
-use Websoft\Database;
+use Keithsk\Database;
 
 class User
 {
