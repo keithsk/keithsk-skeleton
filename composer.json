@@ -1,11 +1,11 @@
 {
-    "name": "websoft/skeleton",
-    "description": "The Websoft Framework (Skeleton)",
+    "name": "keithchiah/skeleton",
+    "description": "The PHP Framework (Skeleton)",
     "type": "project",
     "license": "gpl-3.0",
     "authors": [
         {
-            "name": "Websoft",
+            "name": "Keith Chiah",
             "email": "keithchiah@websoft.com.sg"
         }
     ],
