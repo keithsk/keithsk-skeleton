@@ -2,6 +2,7 @@
     "name": "websoft/skeleton",
     "description": "The Websoft Framework (Skeleton)",
     "type": "project",
+    "license": "gpl-3.0",
     "authors": [
         {
             "name": "Websoft",
