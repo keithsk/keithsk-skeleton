@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "keithsk/framework": "^1.0"
+        "keithsk/framework": "dev-master"
     },
     "autoload": {
         "psr-4": {

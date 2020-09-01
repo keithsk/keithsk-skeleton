@@ -16,10 +16,10 @@ PHP >= 7.2.5
 
 ## Installing
 
-* Run **git clone <repository_url>**
+* Run **composer create-project keithsk/skeleton myapp**
 * Create a new database with collation "utf8mb4_unicode_ci" in mysql
 * Edit config for app and database
-* Run **composer install**
+* Run **php -S localhost:8000 -t**
 * Browse http://localhost:8000
 
 
