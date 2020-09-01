@@ -35,18 +35,27 @@ class Main
 				'info' => 'test1',
 			];
 
-			return response()->json($successResponse);
+			response()->json($successResponse);
 			
 		}
 		catch(Exception $e) {
 
 			return response()->json([
 				'status' => 'error',
-				'message' => $e->getMessage()
+				'errorDescription' => $e->getMessage()
 			], $e->getCode());
 			
 		}
 		
+	}
+
+	public function test2(Request $request)
+	{
+		$successResponse = [
+			'status' => 'success',
+			'info' => 'test2',
+		];
+		response()->json($successResponse);
 	}
 
 }

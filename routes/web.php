@@ -35,12 +35,20 @@ $route = new Route();
 
 
 $route->get('', function($request) {
-
     response()->json([
         'status' => 'OK',
         'info' => $request,
     ]);
-    
+});
+
+
+$route->get('test1', function($request) {
+    Main::test1($request);
+});
+
+$route->get('test2', function($request) {
+    $main = new Main();
+    $main->test2($request);
 });
 
 
