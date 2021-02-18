@@ -4,7 +4,7 @@ namespace App\Http;
 
 use Exception;
 use Keithsk\Request;
-use App\User;
+use App\Models\User;
 
 
 class Main
